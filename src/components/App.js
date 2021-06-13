@@ -1,6 +1,8 @@
 import React from "react";
-import blogData from "../data/blog";
 import Header from "./Header";
+import About from "./About";
+
+import blogData from "../data/blog";
 
 console.log(blogData);
 
@@ -8,6 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header name={blogData.name} />
+      <About about={blogData.about} /> {/* you can pass image as a property to specify a logo, it displays the default one right now */}
+
 
     </div>
   );
