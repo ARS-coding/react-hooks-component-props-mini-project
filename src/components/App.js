@@ -5,7 +5,6 @@ import ArticleList from "./ArticleList";
 
 import blogData from "../data/blog";
 
-console.log(blogData);
 
 function App() {
   return (

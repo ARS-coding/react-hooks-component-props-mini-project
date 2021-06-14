@@ -14,7 +14,8 @@ function ArticleList({posts}) { // posts is an array of objects and each objects
                 post={currentPost}
                 title={currentPost.title}
                 date={currentPost.date}
-                preview={currentPost.preview} 
+                preview={currentPost.preview}
+                minutes={currentPost.minutes} 
             />
         )
     }
